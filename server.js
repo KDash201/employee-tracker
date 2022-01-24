@@ -55,10 +55,10 @@ const introPrompt = () => {
     });
 };
 
-
+// View Departments
 db.connect(function(err) {
     if (err) throw err;
-    con.query("SELECT * FROM departments", function (err, result, fields) {
+    db.query("SELECT * FROM departments", function (err, result, fields) {
       if (err) throw err;
       console.log(result);
     });
