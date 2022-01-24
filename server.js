@@ -4,7 +4,7 @@ const db = require("./config/connection");
 
 db.connect(err => {
     if (err) throw err;
-    console.log('Connected to Employee Database');
+    console.log('Welcome to Team_Tracker');
     introPrompt();
 });
 
@@ -64,6 +64,11 @@ db.connect(function(err) {
     });
   });
   
+  
+//   View Roles
+// db.connect(function(err) {
+//     if (err) throw err;
+//     db.query
 
 
 introPrompt();
