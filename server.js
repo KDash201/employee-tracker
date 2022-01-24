@@ -21,7 +21,7 @@ const introPrompt = () => {
         "add department",
         "add role",
         "add  employee",
-        "update  employee role",
+        "update employee role",
         "quit",
       ],
     })
